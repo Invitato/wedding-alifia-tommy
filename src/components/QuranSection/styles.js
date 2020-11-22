@@ -1,6 +1,13 @@
 import { css } from '@emotion/core';
+import Background from './assets/bg-flower.jpg';
 
 export const styWrapper = css`
+  background-image: url(${Background});
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  min-height: 70vh;
+
   .sub-title {
     color: var(--font-black-ui);
     font-weight: 600;

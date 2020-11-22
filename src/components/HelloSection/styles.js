@@ -6,6 +6,11 @@ export const styWrapper = css`
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 20px;
+    color: var(--font-black-ui);
+  }
+
+  .parent {
+    margin: -16px 16px 16px 16px;
   }
 
   p {

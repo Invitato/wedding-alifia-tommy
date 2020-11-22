@@ -10,7 +10,7 @@ function FooterSection({ isInvitation }) {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2 className="main-font">Terima Kasih</h2>
+                <h2 className="main-font pr-co  ">Terima Kasih</h2>
                 <p className="info">
                   Berdasarkan kondisi saat ini, tanpa mengurangi rasa hormat, diharapkan tetap bisa menjalin silaturahmi
                   melalui media online, bukan dengan kontak fisik secara langsung. <br />
@@ -38,13 +38,14 @@ function FooterSection({ isInvitation }) {
                     href="https://www.youtube.com/watch?v=jvsfAqAZGik&feature=youtu.be&ab_channel=Prassetama"
                     target="_blank"
                     rel="noreferrer"
+                    className="pr-co"
                   >
                     Prassetama - Melamarmu (Saxophone Romantic Instrumental)
                   </a>
                 </small>
                 <small className="block">
                   Create with Love by{' '}
-                  <a href="http://inviato.net" target="_blank" rel="noreferrer">
+                  <a href="http://inviato.net" target="_blank" rel="noreferrer" className="pr-co">
                     Invitato.net
                   </a>
                 </small>

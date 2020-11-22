@@ -10,7 +10,7 @@ function PhotoSection() {
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">Alifia & Tommy</h2>
+              <h2 className="main-font pr-co">Alifia & Tommy</h2>
             </div>
           </div>
           <div className="row">

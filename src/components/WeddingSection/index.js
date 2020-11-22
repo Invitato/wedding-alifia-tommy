@@ -16,7 +16,6 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
               <h2 className="main-font main-font__wedding">Akad Nikah dan Resepsi Pernikahan</h2>
               <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
             </div>
@@ -24,12 +23,7 @@ function WeddingSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <WeddingInfoBox title="Akad Nikah" time="08:00 WIB" date={TIME} description={LOCATION} />
-              <WeddingInfoBox
-                title="Resepsi Pernikahan"
-                time="11:00 - 13:00 WIB"
-                date={TIME}
-                description={LOCATION}
-              />
+              <WeddingInfoBox title="Resepsi Pernikahan" time="11:00 - 13:00 WIB" date={TIME} description={LOCATION} />
             </div>
           </div>
         </div>

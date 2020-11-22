@@ -10,6 +10,7 @@ function HelloSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <h3 className="sub-title hs">BISMILLAHIRAHMANIRRAHIIM</h3>
               <h3 className="sub-title hs">Assallamualaikum Warahmatuallahi Wabarakatuh</h3>
               <p className="info">
                 Dengan memohon Rahmat dan Ridho Allah Subhanahu Wa Ta'ala
@@ -21,14 +22,14 @@ function HelloSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center">
               <h3 className="">ALIFIA DIAN FARIZHA, S.T.</h3>
-              <p className="">Putri Pertama dari Bapak AKBP. Ir. Saiful Fajar & Ibu drg. Susilowati</p>
+              <p className="parent">Putri Pertama dari Bapak AKBP. Ir. Saiful Fajar & Ibu drg. Susilowati</p>
             </div>
           </div>
           {/* GROOM */}
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center">
               <h3 className="">TOMMY ANUGRAH PUTRA, S.T.</h3>
-              <p className="parent-name parent-name__top">Putra Ketiga dari Bapak H. Taufik Hidayat & Ibu Emma Rahmi</p>
+              <p className="parent">Putra Ketiga dari Bapak H. Taufik Hidayat & Ibu Emma Rahmi</p>
             </div>
           </div>
         </div>

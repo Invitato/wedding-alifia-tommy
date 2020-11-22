@@ -3,6 +3,8 @@
   --font-white-ui: #ecf0f1;
   --font-black-ui: #222831;
   --font-blue-ui: #3282b8;
+  --font-primary: #a18f72;
+  --font-primary-2: #9c8d73;
   --secondary-bg: #f8f5ee;
   --primary-bg: #ecf0f1;
 
@@ -13,6 +15,15 @@
 
 body {
   font-family: var(--font-family-content);
+  color: var(--font-primary) !important;
+}
+
+.pr-co {
+  color: var(--font-primary) !important;
+}
+
+.pr-co2 {
+  color: var(--font-primary-2) !important;
 }
 
 .gray-bg {
@@ -22,7 +33,7 @@ body {
 
 .main-font {
   font-family: var(--font-family-title);
-  color: var(--main-bg-color);
+  color: var(--font-primary);
 }
 
 .content-font {
@@ -64,4 +75,8 @@ body {
   .title {
     font-size: 20px !important;
   }
+}
+
+a {
+  font-weight: bold;
 }
