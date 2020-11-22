@@ -81,7 +81,7 @@ export const styScrollWrapper = css`
         width: 44px;
         height: 44px;
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
-        border-radius: 100%;
+        border-radius:     border-radius: 14px 0;%;
         opacity: 0;
         animation: ${radarAnimation} 3s infinite;
         box-sizing: border-box;
@@ -229,11 +229,10 @@ export const styWrapperCount = css`
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  background: var(--font-primary);
   margin: 8px;
-  border-radius: 50%;
+  border-radius: 14px 0;
   position: relative;
-  animation: pulse 1s ease infinite;
   color: #fff;
 
   h3 {

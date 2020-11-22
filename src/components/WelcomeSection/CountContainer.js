@@ -16,16 +16,16 @@ function CountContainer() {
             {`ACARA ${finalText} BERLANGSUNG!`}
           </div>
         </div>
-        <ButtonLive />
+        {/* <ButtonLive /> */}
       </>
     );
 
   return (
     <div className="col-md-12" css={styMargin('0 0 16px 0')}>
-      <CountItem text="Days" number={days} />
-      <CountItem text="Hours" number={hours} />
-      <CountItem text="Minutes" number={minutes} />
-      <CountItem text="Seconds" number={seconds} />
+      <CountItem text="Hari" number={days} />
+      <CountItem text="Jam" number={hours} />
+      <CountItem text="Menit" number={minutes} />
+      <CountItem text="Detik" number={seconds} />
     </div>
   );
 }
