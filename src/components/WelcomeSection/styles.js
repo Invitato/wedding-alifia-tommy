@@ -158,6 +158,7 @@ export const styWrapper = css`
 
   img {
     max-width: 80px;
+    margin-bottom: 1.3em;
   }
 
   h1 {
@@ -198,6 +199,9 @@ export const styWrapper = css`
     padding-bottom: 12px;
     max-width: 250px;
     margin: auto auto 30px auto;
+    font-family: var(--font-family-title);
+    font-weight: normal;
+    font-size: 2.3em;
   }
 
   .margin__bottom {

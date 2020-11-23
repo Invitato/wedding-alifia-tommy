@@ -34,16 +34,12 @@ function FooterSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font pr-co  ">Terima Kasih</h2>
               <p className="info">
                 Sehubungan dengan kondisi saat ini mengenai pembatasan jumlah tamu undangan, <br />
                 Tanpa mengurangi rasa hormat, kami mohon segala doa dan restu dari bapak/ ibu/saudara/i, dan kami
                 berharap tetap dapat menjalin tali silahturahmi melalui media online.
               </p>
-              <p className="info">
-                Atas segala doa dan restu dari bapak/ibu/saudara/i,
-                <br /> Kami ucapkan terima kasih
-              </p>
+              <h2 className="main-font pr-co">Terima Kasih</h2>
             </div>
           </div>
         </div>
