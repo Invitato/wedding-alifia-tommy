@@ -6,9 +6,9 @@ import { styWrapper } from './styles';
 function HelloSection({ isInvitation }) {
   return (
     <Fragment>
-      <div id="fh5co-couple" css={styWrapper} className="gray-bg">
+      <div id="id-hello-section" css={styWrapper} className="gray-bg">
         <div className="container" style={{ minHeight: '60vh' }}>
-          <div className="row">
+          <div className="row" style={{ paddingTop: '2em' }}>
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               {/* <h2 className="main-font">Assalamualaikum Wr. Wb</h2> */}
               <h3 className="sub-title hs">{`The Wedding of Alifia & Tommy`}</h3>

@@ -1,11 +1,10 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
-import { Link } from 'gatsby';
+import { animateScroll } from 'react-scroll';
 
 import WeddingImg from '@assets/images/wedding-logo.png';
-import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
-import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
+import { styWrapper, styHero, styBackground } from './styles';
 
 const DELAY_TIME = 1500;
 
@@ -15,8 +14,8 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
 
   const handleScrollTo = () => {
     /** scroll into detail view */
-    const element = document.getElementById('fh5co-couple');
-    element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    const element = document.getElementById('id-hello-section').offsetTop;
+    animateScroll.scrollTo(element);
   };
 
   const handleShowDetail = () => {
@@ -42,17 +41,6 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
     } else {
       handleScrollTo();
     }
-  };
-
-  const renderGuestSection = () => {
-    if (isAnonymGuest) return <h2 className="to-dearest-name">Dear Friends,</h2>;
-
-    return (
-      <Fragment>
-        <h3 className="to-dearest">To our Dearest</h3>
-        <h2 className="to-dearest-name">{guestName}</h2>
-      </Fragment>
-    );
   };
 
   return (
