@@ -70,9 +70,8 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
             <div className="col-md-8 col-md-offset-2 text-center">
               <img src={WeddingImg} alt="wedding-dinda-indra" />
               <h1 className="title">We Are Getting Married!</h1>
-              <div style={{ marginTop: '2em' }}>
-                <h3 className="to-dearest">Dear,</h3>
-                <h2 className="to-dearest-name">{guestName || `Friends`}</h2>
+              <div style={{ marginTop: '1em' }}>
+                <h2 className="to-dearest-name">{`Alifia & Tommy`}</h2>
               </div>
             </div>
           </div>

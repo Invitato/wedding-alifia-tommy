@@ -41,20 +41,21 @@ export const styScrollWrapper = css`
     }
 
     .text {
+      font-size: 14px;
       animation: ${upAndDownAnimation} 1s infinite alternate;
     }
 
     @media screen and (max-width: 414px) {
       .text {
         bottom: 80px;
-        font-size: 12px;
+        font-size: 14px;
       }
     }
 
     @media screen and (max-width: 360px) {
       .text {
         bottom: 60px;
-        font-size: 12px;
+        font-size: 14px;
       }
     }
   }
@@ -74,14 +75,14 @@ export const styScrollWrapper = css`
 
       span::before {
         position: absolute;
-        top: -23px;
-        left: -22px;
+        top: -30px;
+        left: -30px;
         z-index: -1;
         content: '';
-        width: 44px;
-        height: 44px;
+        width: 60px;
+        height: 60px;
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
-        border-radius:     border-radius: 14px 0;%;
+        border-radius: 100%;
         opacity: 0;
         animation: ${radarAnimation} 3s infinite;
         box-sizing: border-box;

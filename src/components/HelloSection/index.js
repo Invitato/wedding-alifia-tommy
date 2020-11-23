@@ -29,6 +29,9 @@ function HelloSection({ isInvitation }) {
               </p>
             </div>
           </div>
+          <div>
+            <h1 style={{ textAlign: 'center', fontSize: '3em' }}>{`&`}</h1>
+          </div>
           {/* GROOM */}
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center">
