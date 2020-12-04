@@ -19,7 +19,7 @@ function FooterSection({ isInvitation }) {
                 title="Live Wedding"
                 width="100%"
                 height="400"
-                src="https://www.youtube.com/embed/cGArcbvTheU"
+                src="https://www.youtube.com/embed/Reg1D3beRCY"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
