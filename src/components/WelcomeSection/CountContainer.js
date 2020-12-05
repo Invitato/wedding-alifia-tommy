@@ -9,7 +9,7 @@ function CountContainer() {
   if (timeHasRunOut && !isEventOver)
     return (
       <div style={{ margin: '0 0 16px 0' }}>
-        Klik link berikut jika video tidak bisa diputar: <a href="https://youtu.be/Reg1D3beRCY">YOUTUBE LIVE</a>
+        Klik link berikut jika video tidak bisa diputar: <a href="https://youtu.be/6xbFq_sBiuQ">YOUTUBE LIVE</a>
       </div>
     );
 
